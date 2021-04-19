@@ -11,7 +11,7 @@
 # Если пользователь хочет авторизоваться
 if ( isset( $_POST['login'] ) AND isset( $_POST['password'] ) ) {
 
-  $users = [ '55Ded' => 'test', 'Babushka' => 'test' ];
+  $users = [ 'Sunrise' => 'test', 'Sunflower' => 'test' ];
 
   foreach ( $users as $key => $value ) {
 
